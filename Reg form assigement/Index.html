@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registation form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <fieldset id="backgr">
+<div>
+    <h1 style="text-align: center;" class="h1">Registation Form</h1>
+<br><hr>
+
+    <form action="">
+
+        
+    <label for="Details">Enter Your Details Below</label>
+     <ul>
+        <li>
+            <input type="text" placeholder="Enter-email@gmail.com" required>
+        </li>
+     </ul>
+     <ul>
+        <li>
+            <input type="password" placeholder="password" required>
+        </li>
+     </ul>
+     <p>!Type a Complex password with 8-20 characters</p><br>
+     <ul>
+        <li>
+            <input type="number" placeholder="Enter-phone-number" required>
+        </li>
+     </ul>
+    <hr>
+    <p><b>Enter Your profession:</b></p>
+    <ul>
+        <li>
+            <input type="radio" name="profession"> Student
+            <input type="radio" name="profession"> Teacher
+            <input type="radio" name="profession"> developer
+        </li>
+     </ul>
+
+     <label for="student">Choose the stage if you are (Student)</label>
+    <select name="student" id="">
+        <option value="First-Primary">first primary</option>
+        <option value="Second-Primary">Second primary</option>
+        <option value="third-Primary">Third primary</option>
+    </select>
+
+    <ul>
+        <li>
+            <label for="birth">Enter your Birth data</label>
+            <input type="date">
+        </li>
+    </ul>
+    <hr>
+    <ul>
+        <li>
+            <input type="text" placeholder="any notes">
+        </li>
+    </ul>
+<div>
+    <input type="submit" id="submit"> <input type="reset" id="reset">
+    </div>
+    </form>
+</div>
+</fieldset>
+</body>
+</html>

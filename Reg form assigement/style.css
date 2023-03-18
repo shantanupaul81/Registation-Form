@@ -1,0 +1,27 @@
+#backgr{
+    background-color: aliceblue;
+}
+
+#submit{
+    background-color: red;
+    border: 3px solid red;
+    color: white;
+    border-radius: 10px;
+}
+
+#reset{
+    background-color: blue;
+    border: 3px solid blue;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.h1{
+
+    border: 1px solid black;
+    color: red;
+    margin: 0px; 
+    padding: 20px; 
+    background-color: yellow;
+}
